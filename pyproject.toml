@@ -5,7 +5,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fdsp-qlora"
+name = "fsdp-qlora"
 authors = [
     {name = "Chris Brousseau", email = "chrisbrousseau304+fsdpqlora@gmail.com"},
     {name = "Tanner Davis", email = "cholojuanito.dev+fsdpqlora@gmail.com"}

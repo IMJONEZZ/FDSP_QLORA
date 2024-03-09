@@ -14,13 +14,17 @@ description = "Package for training big freaking models on your small GPUs"
 requires-python = ">=3.11.8"
 keywords = ["qlora", "fsdp"]
 readme = "README.md"
-version = "0.0.1"
 dependencies = [
     "torch>2.2",
     "llama-recipes",
     "fastcore",
     "bitsandbytes>=0.43.0"
 ]
+dynamic = ["version"]
 
 [project.urls]
 Homepage = "https://github.com/IMJONEZZ/FDSP_QLORA"
+
+# docs: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+[tool.setuptools.dynamic]
+version = { file = "version.txt" }

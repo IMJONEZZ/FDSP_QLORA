@@ -14,7 +14,7 @@ from fsdp_qlora import ...
 
 ```bash
 # clone the repo
-git clone https://github.com/phitoduck/fsdp-qlora.git
+git clone https://github.com/IMJONEZZ/FDSP_QLORA.git
 
 # install the dev dependencies
 make install
